@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="186px" viewBox="0 0 1440 186" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>header-wave</title>
+    <desc>Created with Sketch.</desc>
+    <g id="header-wave" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M1440,54.9385499 L1440,185 L0,185 L0,72.5454698 C57.998439,67.7335216 137.866137,50.4442497 322,24.9636281 C734,-32.0493294 798,81.9765856 1157,81.9765856 C1273.54375,81.9765856 1367.87708,72.963907 1440,54.9385499 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+        <path d="M1455,615 C1403,691 1257.33333,729 1018,729 C659,729 595,615 183,672 C-229,729 -119,745 -410,672 C-410,230 -410,9 -410,9 L1441,9 L1455,615 Z" id="Path-3-Copy" fill="#FFFFFF" fill-rule="nonzero" opacity="0.0873883929" transform="translate(522.500000, 369.000000) scale(1, -1) translate(-522.500000, -369.000000) "></path>
+    </g>
+</svg>

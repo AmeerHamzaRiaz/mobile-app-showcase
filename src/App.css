@@ -1,38 +1,313 @@
-.App {
+* {
+  font-family: Poppins;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+.gutter {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.gradient-bg {
+  background-image: linear-gradient(134deg, #FF416C 0%, #ef4349 100%);
+}
+
+.navbar-headings {
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  font-weight: 300;
+  padding-top: 13px; /* should not have needed */
+}
+
+.navbar-dark .nav-item > .nav-link.active {
+  color: white;
+}
+.nav-link:hover{
+  text-shadow: 0px 0px 5px #ffffff;
+}
+.navbar-fixed-top.scrolled {
+  background-image: linear-gradient(134deg, #FF416C 0%, #ef4349 100%) !important;
+  transition: background-color 200ms linear;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  min-height: 400px !important;
+}
+
+.jumbotron-heading {
+  font-size: 42px;
+  color: #ffffff;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+
+.jumbotron-mobile {
+  position: absolute;
+  right: 0;
+  /* width: 321px; */
+  /* height: 542px; */
+}
+
+.jumbotron-subheading {
+  display: inline-block;
+}
+.jumbotron-subheading:hover {
+  text-shadow: 0px 0px 5px #ffffff;
+}
+.jumbotron-p {
+  font-weight: 100;
+  font-size: 22px;
+  color: #ffffff;
+  letter-spacing: 0.24px;
+  text-align: left;
+}
+
+.wave-svg-div {
+  margin-bottom: 120px;
+}
+
+.wave-svg {
+  width: 100%;
+}
+/* sections */
+.section-heading {
+  font-size: 42px;
+  color: #ef4349;
+  letter-spacing: 0.17px;
+  font-weight: 500;
+}
+
+.section-p {
+  font-weight: 300;
+  font-size: 20px;
+  color: #7f9199;
+  letter-spacing: 0.22px;
+  line-height: 39px;
+  margin-bottom: 140px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Features */
+.feature-heading {
+  font-weight: 500;
+  font-size: 24px;
+  color: #49575d;
+  letter-spacing: 0.1px;
+  text-align: center;
+  margin-top: 27px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.location-img {
+  width: 100px;
+  height: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.location-img:hover{
+  box-shadow: 0 14px 16px 0 rgba(239, 67, 73, 0.35);
+  border-radius: 50px;
+}
+
+.feature-p {
+  font-size: 18px;
+  color: #7f9199;
+  letter-spacing: 0.2px;
+  text-align: center;
+  line-height: 31px;
+  margin-top: 3px;
+}
+
+/* How it Works */
+
+#demo-mobile {
+  /* width: 90%;
+  height: auto; */
+}
+
+.demo-steps-div {
+  padding: 30px;
+}
+
+.demo-steps-div-active {
+  padding: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.demo-heading {
+  font-size: 22px;
+  color: #ef4349;
+  letter-spacing: 0.09px;
+  text-align: left;
+}
+
+.demo-p {
+  font-size: 16px;
+  color: #7f9199;
+  letter-spacing: 0.17px;
+  line-height: 28px;
+  text-align: left;
+}
+
+/* Try Hurry App */
+.try-app {
+  /* background: url("../images/try-bg-logo-mark.png") no-repeat,
+    linear-gradient(134deg, #179dc6 0%, #0c79a8 100%); */
+    background-image: linear-gradient(134deg, #FF416C 0%, #ef4349 100%);
+  height: auto;
+  background-position: right; /* Center the image */
+}
+
+.phone-cropped {
+  padding-top: 40px;
+  width: 218px;
+  height: auto;
+}
+
+.store-btn {
+  width: 200px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+/* Contact Us */
+.contact-heading {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 32px;
+  color: #ef4349;
+  letter-spacing: 0.13px;
+  text-align: left;
+  line-height: 1;
+}
+
+/* .contact-img {
+  width: 90%;
+  height: auto;
+} */
+
+.contact-btn {
+  background-image: linear-gradient(134deg, #FF416C 0%, #ef4349 100%);
+  font-family: Poppins;
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.contact-image {
+  width: 100%;
+}
+
+.contact-btn:hover {
+  box-shadow: 0 14px 16px 0 rgba(239, 67, 73, 0.35);
+  color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="text"]:focus,
+input[type="email"]:focus {
+  background-color: #f0f5f6;
+}
+
+#message {
+  resize: none;
+  background-color: #f0f5f6;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  background-image: linear-gradient(134deg, #FF416C 0%, #ef4349 100%);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer-logo {
+  float: left;
+}
+
+.footer-content {
+  font-family: Poppins;
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.customFooter{
+  padding-top: 20%;
+}
+.footer-content:hover {
+  text-shadow: 0px 0px 5px #ffffff;
+}
+
+.social-icon {
   color: white;
+  font-size: 1.2em;
 }
 
-.App-link {
-  color: #61dafb;
+.social-icon:hover {
+  text-shadow: 0px 0px 5px #ffffff;
+  font-size: 1.3em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* for small screen */
+@media screen and (max-width: 600px) {
+  .footer-content {
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+  #try-heading {
+    margin-top: 40px;
+  }
+
+  .store-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+  }
+
+  .demo-mobile-div {
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 780px) {
+  .contact-img {
+    display: none;
+  }
+
+  #croppedImg{
+    display: none !important;
+  }
+  .mobile-div {
+    display: none;
+  }
+
+  .jumbotron-heading {
+    text-align: center;
+  }
+
+  .jumbotron-subheading {
+    padding-top: 40px;
+    position: absolute;
+    left: 40%;
+    margin-left: -40px;
+    /* not good find somehting else */
+  }
+  .store-btn-div {
+    margin-bottom: 40px;
+    margin: 0 auto;
   }
 }
